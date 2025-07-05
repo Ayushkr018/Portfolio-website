@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Passionate Ayush Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Ayush Kumar</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in-up">
+            <h1>Ayush Kumar</h1>
+            <div class="typewriter-container">
+                <span class="typewriter" id="typewriter-text"></span>
+            </div>
+            <p>Passionate developer crafting digital experiences with modern technologies. Transforming ideas into reality through clean code and innovative solutions.</p>
+            <a href="#about" class="cta-button">Discover My Journey</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section scroll-animate">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="profile-image">
+    <div class="profile-avatar">
+        <picture>
+            <source srcset="Ayushhh.avif" type="image/avif">
+            <img src="Ayushhh.png" alt="Ayush Avatar" loading="lazy">
+        </picture>
+    </div>
+</div>
+
+            <div class="about-text">
+                <p>Hello! I'm Ayush Kumar, a passionate developer and tech enthusiast currently pursuing my B.Tech (2022–2026 batch). With a strong foundation in Python, Java, C++, and frontend/backend technologies, I enjoy building smart solutions that blend creativity with functionality.
+
+</p>
+                <p>My projects like “Ellyse - Your Virtual Ace” and “Sentiment Analyzer” reflect my interest in AI, voice interaction, and human-centered design. Whether it’s developing data dashboards or full-stack applications, I love turning ideas into impactful software experiences.I'm always excited to learn, collaborate, and grow in the world of technology — let’s build something amazing together!</p>
+                <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                
+                <div class="resume-section">
+                    <h3>Ready to collaborate?</h3>
+                    <p>Download my resume to learn more about my experience and skills.</p>
+                    <button class="download-btn" onclick="openResumeModal()">
+                        📄 View Resume Options
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section scroll-animate">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+    <div class="skill-icon">
+        <img src="frontend.jpeg" alt="Frontend Icon" />
+    </div>
+    <h3 class="skill-name">Frontend</h3>
+    <div class="skill-items">
+        <span class="skill-item">HTML5</span>
+        <span class="skill-item">CSS3</span>
+        <span class="skill-item">JavaScript</span>
+    </div>
+</div>
+            <div class="skill-category">
+               <div class="skill-icon">
+        <img src="Backend.jpg" alt="Programming Language Icon" />
+    </div>
+                <h3 class="skill-name">Programming Language</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Java</span>
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">C++</span>
+                    <span class="skill-item">C</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-icon">
+        <img src="dataa.png" alt="Data Analytics Icon" />
+    </div>
+                <h3 class="skill-name">Data Analytics</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Power BI</span>
+                    <span class="skill-item">Excel</span>
+                    <span class="skill-item">Tableu</span>
+                    <span class="skill-item">Matplotlib</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-icon">
+        <img src="databse.png" alt="DataBase Icon" />
+    </div>
+                <h3 class="skill-name">DataBase</h3>
+                <div class="skill-items">
+                    <span class="skill-item">MySQL</span>
+                    <span class="skill-item">MongoDB</span>
+                    <span class="skill-item">Oracle SQL</span>
+                </div>
+            </div>
+          <div class="skill-category">
+                <div class="skill-icon">
+        <img src="version.jpeg" alt="  Version Control Icon" />
+    </div>
+                <h3 class="skill-name">Version Control</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Git</span>
+                    <span class="skill-item">GitHub</span>
+                </div>
+            </div>  
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section scroll-animate">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+    <div class="project-preview">
+        <video autoplay loop muted playsinline width="100%" height="100%" style="border-radius: 1rem; object-fit: cover;">
+            <source src="Ayush ellyse.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="project-content">
+        <h3 class="project-title">Ellyse-Your Virtual Ace</h3>
+        <p class="project-description">
+           Ellyse is a smart, voice-controlled AI assistant built using Python, designed to simplify daily digital interactions. With features like WhatsApp messaging, alarm setting, file management, emotion-based responses, and multilingual understanding.
+        </p>
+        <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Turtle</span>
+            <span class="tech-tag">Tkinter</span>
+            <span class="tech-tag">Transformer</span>
+        </div>
+        <a href="https://github.com/Ayushkr018/Ai-Voice-Assistant-source-code-" target="_blank" class="project-link">View on GitHub →</a>
+    </div>
+</div>
+
+
+            <div class="project-card">
+                <div class="project-preview">
+        <video autoplay loop muted playsinline width="100%" height="100%" style="border-radius: 1rem; object-fit: cover;">
+            <source src="Ayush analyzer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+                <div class="project-content">
+                    <h3 class="project-title">Sentiment Analyzer</h3>
+                    <p class="project-description">About
+This project uses voice input to detect and classify human emotions using sentiment analysis techniques. By integrating speech recognition with natural language processing, the system analyzes the tone, pitch, and content of spoken language to determine emotional states like happiness, sadness, anger, or neutrality.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JAVASCRIPT</span>
+                        <span class="tech-tag">three.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                    </div>
+                    <a href="https://github.com/Ayushkr018/Sentiment-Analyzer" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section scroll-animate">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <div class="certificate-icon"> 📋🧭</div>
+                <h4 class="certificate-name">Product Management</h4>
+                <div class="certificate-actions">
+                    <a href="product.pdf" class="cert-btn" target="_blank">View</a>
+                    <a href="product.pdf" class="cert-btn" download>Download</a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-icon">🧠💾</div>
+                <h4 class="certificate-name">BigData</h4>
+                <div class="certificate-actions">
+                   <a href="guvi.pdf" class="cert-btn" target="_blank">View</a>
+        <a href="guvi.pdf" class="cert-btn" download>Download</a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-icon"> 🧮📈</div>
+                <h4 class="certificate-name">Data Science</h4>
+                <div class="certificate-actions">
+                   <a href="ibm.pdf" class="cert-btn" target="_blank">View</a>
+        <a href="ibm.pdf" class="cert-btn" download>Download</a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-icon">♟️📊</div>
+                <h4 class="certificate-name">Strategic Decision Making</h4>
+                <div class="certificate-actions">
+                 <a href="product.pdf" class="cert-btn" target="_blank">View</a>
+        <a href="product.pdf" class="cert-btn" download>Download</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-icon">📄🔍</div>
+                <h4 class="certificate-name">Research Paper by IJRASET</h4>
+                <div class="certificate-actions">
+                 <a href="ayush cer.pdf" class="cert-btn" target="_blank">View</a>
+        <a href="ayush cer.pdf" class="cert-btn" download>Download</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-icon">📊⚡</div>
+                <h4 class="certificate-name">Power BI</h4>
+                <div class="certificate-actions">
+                 <a href="new c-11.pdf" class="cert-btn" target="_blank">View</a>
+        <a href="new c-11.pdf" class="cert-btn" download>Download</a>
+                </div>
+            </div>
+        </div>
+        
+        <p class="journey-text">"Continuous learning is the key to staying ahead in the ever-evolving world of technology."</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section scroll-animate">
+        <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-content">
+    <div class="contact-info">
+        <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-details">
+                <h4>Email</h4>
+                <p><a href="mailto:ayushkr1974@gmail.com">Email Me</a></p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <div class="contact-icon">📸</div>
+            <div class="contact-details">
+                <h4>Instagram</h4>
+                <p><a href="https://www.instagram.com/ayushkr420a?igsh=a3RuZ2toYmV0MTE3" target="_blank">Follow on Instagram</a></p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <div class="contact-icon">🐙</div>
+            <div class="contact-details">
+                <h4>GitHub</h4>
+                <p><a href="https://github.com/Ayushkr018" target="_blank">View GitHub</a></p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div class="contact-details">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/ayush-kumar-148412258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Connect on LinkedIn</a></p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <div class="contact-icon">🐦</div>
+            <div class="contact-details">
+                <h4>Twitter (X)</h4>
+                <p><a href="https://x.com/Ayushkr718?s=08" target="_blank">Follow on X</a></p>
+            </div>
+        </div>
+    </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message 🚀</button>
+                </form>
+            </div>
+        </div>
+</div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 <span class="footer-gradient-text">Ayush Kumar</span>. All rights reserved| Designed with ❤️ and lots of ☕.</p>
+            <p>Built with passion and modern web technologies ✨</p>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeResumeModal()">&times;</span>
+            <h2 style="text-align: center; margin-bottom: 2rem; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Resume Options</h2>
+            
+            <div class="resume-options">
+    <div class="resume-option">
+        <h4>📄 Software Developer</h4>
+        <p>"Focused on software development skills, projects, technical experience, and education."</p>
+        <div class="resume-buttons">
+            <a href="Ayush_Kumar_Resume.pdf" download class="resume-btn">Download PDF</a>
+            <a href="Ayush_Kumar_Resume.pdf" target="_blank" class="resume-btn secondary">View Online</a>
+        </div>
+    </div>
+
+    <div class="resume-option">
+        <h4>Data Analyst</h4>
+        <p>"Data-driven layout highlighting analytical skills, visualization projects, and insights."</p>
+        <div class="resume-buttons">
+            <a href="assets/resume-creative.pdf" download class="resume-btn">Download PDF</a>
+            <a href="assets/resume-creative.pdf" target="_blank" class="resume-btn secondary">View Online</a>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- Before closing </body> tag -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+   
+</body>
+</html>
