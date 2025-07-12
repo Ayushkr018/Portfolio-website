@@ -170,7 +170,8 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 // Mobile menu toggle (placeholder for mobile menu functionality)
 document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
     // This would typically toggle a mobile menu
-    alert('Mobile menu would toggle here on smaller screens!');
+    nav.classList.toggle('visible');
+      this.textContent = nav.classList.contains('visible') ? '✖' : '☰';
 });
 
 // Enhanced scroll animations for skill cards
